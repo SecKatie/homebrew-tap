@@ -1,4 +1,4 @@
-class W3m < Formula
+class W3mImg< Formula
   desc "Pager/text based browser"
   homepage "https://w3m.sourceforge.net/"
   url "https://git.sr.ht/~rkta/w3m/archive/v0.5.6.tar.gz"
