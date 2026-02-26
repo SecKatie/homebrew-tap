@@ -1,4 +1,4 @@
-# SecKatie Tap
+# Katie's Tap
 
 ## How do I install these formulae?
 
