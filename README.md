@@ -24,7 +24,7 @@ cask "<cask>"
 | `effectcraft` | EffectCraft: motion graphics compositor |
 | `filmcraft` | FilmCraft: video editor |
 | `lightcraft` | LightCraft: photo library and raw developer |
-| `printcraft` | PrintCraft (formerly PDFCraft): PDF editor |
+| `pdfcraft` | PdfCraft (formerly PrintCraft): PDF editor |
 | `vectorcraft` | VectorCraft: vector graphics editor |
 
 PhotoCraft is already in the official Homebrew cask repo: `brew install --cask photocraft`.

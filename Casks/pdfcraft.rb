@@ -1,0 +1,25 @@
+cask "pdfcraft" do
+  version "0.4.0"
+  sha256 "740da4900e8bc4957382ef3ef37b544e19dee94bd704f7dc49a1b306e254fa10"
+
+  url "https://github.com/storytold/pdfcraft/releases/download/v#{version}/pdfcraft-#{version}-macos-universal.dmg"
+  name "PdfCraft"
+  desc "PDF viewer and editor"
+  homepage "https://getartcraft.com/apps/pdfcraft"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  depends_on :macos
+
+  app "PdfCraft.app"
+
+  zap trash: [
+    "~/Library/Application Support/PdfCraft",
+    "~/Library/Application Support/PrintCraft",
+    "~/Library/Preferences/ai.storyteller.pdfcraft.plist",
+    "~/Library/Preferences/ai.storyteller.printcraft.plist",
+  ]
+end

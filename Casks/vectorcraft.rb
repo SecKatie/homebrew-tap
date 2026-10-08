@@ -1,6 +1,6 @@
 cask "vectorcraft" do
-  version "0.5.0"
-  sha256 "871c6099353574719478819b63ec7319c4f3f71cd61b0053d4c8e2da0820d0e2"
+  version "0.6.0"
+  sha256 "aad684340a369512a35a71b98645bf9bad8c6f8768fd57bb5097153aa6bc1d87"
 
   url "https://github.com/storytold/vectorcraft/releases/download/v#{version}/vectorcraft-#{version}-macos-universal.dmg"
   name "VectorCraft"

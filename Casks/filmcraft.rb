@@ -1,6 +1,6 @@
 cask "filmcraft" do
-  version "0.2.1"
-  sha256 "4deff5924e8e4040e60c73db2e668812a5967c973790be7565f8e8d9c69344fd"
+  version "0.4.0"
+  sha256 "81feeedd6294579fe51f07acff2f8bac57c2ca72a0b49977ef76be67c7c45237"
 
   url "https://github.com/storytold/filmcraft/releases/download/v#{version}/filmcraft-#{version}-macos-universal.dmg"
   name "FilmCraft"
