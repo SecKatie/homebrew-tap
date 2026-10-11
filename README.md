@@ -14,20 +14,13 @@ brew "<formula>"
 cask "<cask>"
 ```
 
-## Casks
+## ArtCraft apps
 
-[ArtCraft](https://getartcraft.com/apps) apps:
+All twelve [ArtCraft](https://getartcraft.com/apps) apps are in the official Homebrew cask repo, so this tap no longer ships them. Install them with `brew install --cask <name>`:
 
-| Cask | App |
-| --- | --- |
-| `designcraft` | DesignCraft: page layout |
-| `effectcraft` | EffectCraft: motion graphics compositor |
-| `filmcraft` | FilmCraft: video editor |
-| `lightcraft` | LightCraft: photo library and raw developer |
-| `pdfcraft` | PdfCraft (formerly PrintCraft): PDF editor |
-| `vectorcraft` | VectorCraft: vector graphics editor |
+`photocraft`, `vectorcraft`, `filmcraft`, `lightcraft`, `pdfcraft`, `effectcraft`, `designcraft`, `wordcraft`, `soundcraft`, `deckcraft`, `cadcraft`, `gridcraft`
 
-PhotoCraft is already in the official Homebrew cask repo: `brew install --cask photocraft`.
+Casks previously installed from this tap migrate to the official ones on `brew update`.
 
 ## Documentation
 
